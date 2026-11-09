@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Помощь Рядом — Студенческий Социальный Проект</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">🤝 Помощь Рядом</div>
+            <p class="subtitle">Студенческий сервис поиска помощи для людей с ОВЗ</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="filter-section">
+            <h2>Лента заявок на помощь</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-category="all">Все заявки</button>
+                <button class="tab-btn" data-category="products">Продукты / Лекарства</button>
+                <button class="tab-btn" data-category="walk">Сопровождение</button>
+                <button class="tab-btn" data-category="home">Помощь по дому</button>
+            </div>
+        </section>
+
+        <section class="cards-grid" id="cards-container">
+            <!-- Сюда JavaScript будет подставлять карточки динамически -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Разработано студенческой командой для создания инклюзивной среды</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
